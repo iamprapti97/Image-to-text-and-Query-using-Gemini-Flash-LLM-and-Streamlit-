@@ -5,9 +5,8 @@ import PIL.Image
 import pandas as pd
 
 # Set your API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB3GVSRfgtc_2HjsHKPQeXCxDbc0Xi8u1w"
+os.environ["GOOGLE_API_KEY"] = "your api key here"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
-
 
 
 
